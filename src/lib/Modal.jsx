@@ -1,7 +1,7 @@
 import React from "react";
 import "./modal.css";
 
-function Modal({ title, closeModal, isOpened }) {
+const Modal = ({ title, closeModal, isOpened }) => {
   return (
     <div>
       {isOpened && (
@@ -14,6 +14,6 @@ function Modal({ title, closeModal, isOpened }) {
       )}
     </div>
   );
-}
+};
 
 export default Modal;
